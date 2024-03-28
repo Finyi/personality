@@ -105,7 +105,7 @@ nav{
     left: 0;
     right: 0;
     width: 50%;
-    min-width: 440px;
+    min-width: 380px;
     max-width: 620px;
     height: 320px;
     top: 260px;
@@ -344,8 +344,29 @@ footer>a{
         width: 388px;
     }
 }
+@media screen and (max-width: 800px) {
+    .info_container>p{
+        width: 322px;
+    }
+}
 @media screen and (max-width: 704px) {
     .projects{
         height: 1200px;
+    }
+}
+@media screen and (max-width: 514px) {
+    #a_head{
+        margin-left: 280px;
+    }
+    #head_slash{
+        left: 387px;
+    }
+}
+@media screen and (max-width: 431px) {
+    #a_head{
+        margin-left: 240px;
+    }
+    #head_slash{
+        left: 344px;
     }
 }
